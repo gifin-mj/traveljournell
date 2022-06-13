@@ -27,6 +27,7 @@ body{
 }
 
 .card-content{
+    margin-top: 10px;
     margin-left: 20px;
     display: flexbox;
     text-align: left;
@@ -34,15 +35,45 @@ body{
 }
 span{
   margin-left: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
 }
 .card-content a{
+  
   margin-left: 10px;
   color: #918E9B;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
 
 }
 .card-content h1 h5 p {
   margin: 0%;
 }
+.card-content h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #746e92;
+}
+.card-content h5{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 12px;
+}
+.card-content p{
+  margin-right: 100px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+}
+
 .footer{
   height: 50px;
   background-color: #F55A5A;
