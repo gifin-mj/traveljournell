@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Card from './Components/Card';
+import Footer from './Components/Footer';
 import Header from './Components/Header';
 import places from './places';
 
@@ -19,9 +20,8 @@ function App() {
   return (
     <div className="App">
         <Header/>
-        
         {cards}
-        
+        <Footer/>
     </div>
   );
 }
